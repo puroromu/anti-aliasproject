@@ -20,7 +20,7 @@ Under development
 Names on the danger list will be alerted.
 
 # アンチエイリアスプロジェクト[日本語]
-anti-airis projectは、IP BANなどを完全無償で提供するためのツールを作成・提供するプロジェクトです。
+anti-alias projectは、IP BANなどを完全無償で提供するためのツールを作成・提供するプロジェクトです。
 
 ## 開発・保守・運用project
 
