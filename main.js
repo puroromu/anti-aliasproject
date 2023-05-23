@@ -1,22 +1,12 @@
-const express = require("express");
-const app = express();
+const express = require('express')
+const app = express()
+const port = 80
 
-app.get("/", (req, res) => {
-  // リクエストパラメータのタイトルを取得します。
+app.get('/', (req, res) => {
   const title = req.query.title;
+  res.send('Hello World!\n${title}')
+})
 
-  // JSON ファイルからタイトルに一致する記事を検索します。
-  const articles = JSON.parse(fs.readFileSync("main.json"));
-  const article = articles.find((article) => article.title === title);
-
-  // 記事が見つかった場合は、レスポンスに返します。
-  if (article) {
-    res.send(article);
-  } else {
-    res.sendStatus(404);
-  }
-});
-
-app.listen(80, () => {
-  console.log("Server is listening on port 3000");
-});
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
