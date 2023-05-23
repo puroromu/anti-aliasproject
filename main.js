@@ -4,7 +4,7 @@ const port = 80
 
 app.get('/', (req, res) => {
   const title = req.query.title;
-  res.send('Hello World! ${title}')
+  res.send(`Hello World! ${title}`)
 })
 
 app.listen(port, () => {
