@@ -14,11 +14,6 @@ IPs on the ban list will be banned.
 Under development
 Email addresses on the ban list will be banned.
 
-### Name BAN Function
-
-Under development
-Names on the danger list will be alerted.
-
 # アンチエイリアスプロジェクト[日本語]
 anti-alias projectは、IP BANなどを完全無償で提供するためのツールを作成・提供するプロジェクトです。
 
@@ -29,6 +24,3 @@ anti-alias projectは、IP BANなどを完全無償で提供するためのツ�
 
 ### メールアドレスBAN機能
 開発中 内容 禁止リスト上のメールアドレスが禁止されます。
-
-### 名前 BAN機能
-開発中 危険リスト上の名前が警告されます。
