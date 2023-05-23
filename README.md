@@ -20,7 +20,7 @@ anti-alias projectは、IP BANなどを完全無償で提供するためのツ�
 ## 開発・保守・運用project
 
 ### IP BAN機能
-開発中 
+開発中  
 説明禁止リストにあるIPがBANされます。  
 
 
